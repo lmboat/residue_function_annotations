@@ -24,9 +24,13 @@ Counts of how many proteins had UniProt annotations for active sites, binding si
    ```
    
 4. Create main active site and binidng site identifiers from UniProtKB annotations
-   ### active_binding_site_function_annotation.ipynb
+   ```
+   active_binding_site_function_annotation.ipynb
+   ```
 6. Merge custom input data to identify annotated active site and binding sites within custom dataset
-   ### disulfide_redox_site_function_annotation.ipynb
+   ```
+   disulfide_redox_site_function_annotation.ipynb
+   ```
 8. Create main disulfide bond and redox active identifiers from UniProtKB annotations
 9. Merge custom input data to identify annotated disulfide bond and redox active sites within custom dataset
 
