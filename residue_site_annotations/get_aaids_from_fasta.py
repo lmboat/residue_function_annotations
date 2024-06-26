@@ -119,14 +119,13 @@ def auto_start(args, aa_dict):
     args.o = '2401_uniprot_' + args.rid + 'ids.csv'
     start_game(args, cd, path_data)
 
+# python3 get_aaids_from_fasta.py -h
 def main():
 
   aa_dict = {'A': 'alanine', 'G': 'glycine', 'I': 'isoleucine', 'L': 'leucine', 'P': 'proline', 'V': 'valine',
   'F': 'phenylalanine', 'W': 'tryptophan', 'Y': 'tyrosine', 'D': 'aspartate', 'E': 'glutamate', 'R': 'arginine',
   'H': 'histidine', 'K': 'lysine', 'S': 'serine', 'T': 'threonine', 'C': 'cysteine', 'M': 'methionine', 'N': 'asparagine',
   'Q': 'glutamine'}
-
-  # https://www.dropbox.com/s/r8miefs6m1sb2it/2301_uniprot.fasta?dl=1
 
   parser = argparse.ArgumentParser()
   parser.add_argument('-i', '--input', dest='i', nargs='?', default="2401_uniprot.fasta", type=str, help='default 2401_uniprot.fasta')
