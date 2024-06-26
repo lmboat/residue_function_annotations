@@ -8,8 +8,9 @@ Counts of how many proteins had UniProt annotations for active sites, binding si
    pip3 install biopython
    ```
 2. Download input file <2401_uniprot.fasta> from UniProt for all canonical human protein sequences.
-3. Input files <aa_ids/2401_uniprot_residueid.csv> can be calculated using get_aaids_from_fasta.py
-4. Input files <compiled_identifiers.csv> are required and can be obtained from the MS-CpDAA Analysis Suite.
+   https://rest.uniprot.org/uniprotkb/stream?format=fasta&query=%28Human%29+AND+%28model_organism%3A9606%29+AND+%28reviewed%3Atrue%29
+4. Input files <aa_ids/2401_uniprot_residueid.csv> can be calculated using get_aaids_from_fasta.py
+5. Input files <compiled_identifiers.csv> are required and can be obtained from the MS-CpDAA Analysis Suite.
 
 ## Usage
 1. Create main amino acid identifiers for the entire proteome for a specific residue
